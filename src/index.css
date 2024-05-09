@@ -6,6 +6,21 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/* For screens smaller than 768px */
+@media (max-width: 767px) {
+  .container {
+    width: 90%; /* Adjust width as needed */
+    margin: 0 auto; /* Center the container */
+  }
+}
+
+/* For screens smaller than 576px */
+@media (max-width: 575px) {
+  .container {
+    padding: 10px; /* Adjust padding as needed */
+  }
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
